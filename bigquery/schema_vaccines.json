@@ -1,0 +1,80 @@
+[
+  {
+    "description": "Developer / Researcher",
+    "mode": "NULLABLE",
+    "name": "developer_or_researcher",
+    "type": "STRING"
+  },
+  {
+    "description": "Treatment vs. Vaccine",
+    "mode": "NULLABLE",
+    "name": "treatment_vs_vaccine",
+    "type": "STRING"
+  },
+  {
+    "description": "Product Category",
+    "mode": "NULLABLE",
+    "name": "product_category",
+    "type": "STRING"
+  },
+  {
+    "description": "Stage of Development",
+    "mode": "NULLABLE",
+    "name": "stage_of_development",
+    "type": "STRING"
+  },
+  {
+    "description": "Anticipated Next Steps",
+    "mode": "NULLABLE",
+    "name": "anticipated_next_steps",
+    "type": "STRING"
+  },
+  {
+    "description": "Product Description",
+    "mode": "NULLABLE",
+    "name": "product_description",
+    "type": "STRING"
+  },
+  {
+    "description": "Clinical Trials for COVID-19",
+    "mode": "NULLABLE",
+    "name": "clinical_trials",
+    "type": "STRING"
+  },
+  {
+    "description": "Funder",
+    "mode": "NULLABLE",
+    "name": "funder",
+    "type": "STRING"
+  },
+  {
+    "description": "Published Results",
+    "mode": "NULLABLE",
+    "name": "published_results",
+    "type": "STRING"
+  },
+  {
+    "description": "Clinical Trials for Other Diseases (T only) / Related Use or Platform (V only)",
+    "mode": "NULLABLE",
+    "name": "clinical_trials_for_other_diseases_or_related_use",
+    "type": "STRING"
+  },
+  {
+    "description": "FDA-Approved Indications",
+    "mode": "NULLABLE",
+    "name": "fda_approved_indications",
+    "type": "STRING"
+  },
+  {
+    "description": "Sources",
+    "mode": "NULLABLE",
+    "name": "sources",
+    "type": "STRING"
+  },
+  {
+    "description": "Date Last Updated",
+    "mode": "NULLABLE",
+    "name": "date_last_updated",
+    "type": "STRING"
+  }
+]

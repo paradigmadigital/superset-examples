@@ -1,0 +1,551 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "COVID Vaccine Dashboard",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{}\", \"color_scheme\": \"supersetColors\", \"label_colors\": {\"0\": \"#D3B3DA\", \"1\": \"#9EE5E5\", \"0. Pre-clinical\": \"#1FA8C9\", \"2. Phase II or Combined I/II\": \"#454E7C\", \"1. Phase I\": \"#5AC189\", \"3. Phase III\": \"#FF7F44\", \"4. Authorized\": \"#666666\", \"root\": \"#1FA8C9\", \"Protein subunit\": \"#454E7C\", \"Phase II\": \"#5AC189\", \"Pre-clinical\": \"#FF7F44\", \"Phase III\": \"#666666\", \"Phase I\": \"#E04355\", \"Phase I/II\": \"#FCC700\", \"Inactivated virus\": \"#A868B7\", \"Virus-like particle\": \"#3CCCCB\", \"Replicating bacterial vector\": \"#A38F79\", \"DNA-based\": \"#8FD3E4\", \"RNA-based vaccine\": \"#A1A6BD\", \"Authorized\": \"#ACE1C4\", \"Non-replicating viral vector\": \"#FEC0A1\", \"Replicating viral vector\": \"#B2B2B2\", \"Unknown\": \"#EFA1AA\", \"Live attenuated virus\": \"#FDE380\", \"COUNT(*)\": \"#D1C6BC\"}, \"filter_scopes\": {\"131\": {\"Country_Name\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"Product_Category\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"Clinical Stage\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}}}, \"remote_id\": 11}",
+                "position_json": "{\"CHART-63bEuxjDMJ\": {\"children\": [], \"id\": \"CHART-63bEuxjDMJ\", \"meta\": {\"chartId\": 90, \"height\": 76, \"sliceName\": \"Vaccine Candidates per Country\", \"sliceNameOverride\": \"Map of Vaccine Candidates\", \"uuid\": \"ddc91df6-fb40-4826-bdca-16b85af1c024\", \"width\": 7}, \"parents\": [\"ROOT_ID\", \"TABS-wUKya7eQ0Z\", \"TAB-BCIJF4NvgQ\", \"ROW-zvw7luvEL\"], \"type\": \"CHART\"}, \"CHART-F-fkth0Dnv\": {\"children\": [], \"id\": \"CHART-F-fkth0Dnv\", \"meta\": {\"chartId\": 91, \"height\": 76, \"sliceName\": \"Vaccine Candidates per Country\", \"sliceNameOverride\": \"Treemap of Vaccine Candidates per Country\", \"uuid\": \"e2f5a8a7-feb0-4f79-bc6b-01fe55b98b3c\", \"width\": 5}, \"parents\": [\"ROOT_ID\", \"TABS-wUKya7eQ0Z\", \"TAB-BCIJF4NvgQ\", \"ROW-zvw7luvEL\"], \"type\": \"CHART\"}, \"CHART-RjD_ygqtwH\": {\"children\": [], \"id\": \"CHART-RjD_ygqtwH\", \"meta\": {\"chartId\": 87, \"height\": 59, \"sliceName\": \"Vaccine Candidates per Phase\", \"sliceNameOverride\": \"Vaccine Candidates per Phase\", \"uuid\": \"30b73c65-85e7-455f-bb24-801bb0cdc670\", \"width\": 2}, \"parents\": [\"ROOT_ID\", \"TABS-wUKya7eQ0Z\", \"TAB-BCIJF4NvgQ\", \"ROW-xSeNAspgw\"], \"type\": \"CHART\"}, \"CHART-aGfmWtliqA\": {\"children\": [], \"id\": \"CHART-aGfmWtliqA\", \"meta\": {\"chartId\": 86, \"height\": 59, \"sliceName\": \"Vaccine Candidates per Phase\", \"uuid\": \"392f293e-0892-4316-bd41-c927b65606a4\", \"width\": 4}, \"parents\": [\"ROOT_ID\", \"TABS-wUKya7eQ0Z\", \"TAB-BCIJF4NvgQ\", \"ROW-xSeNAspgw\"], \"type\": \"CHART\"}, \"CHART-dCUpAcPsji\": {\"children\": [], \"id\": \"CHART-dCUpAcPsji\", \"meta\": {\"chartId\": 88, \"height\": 82, \"sliceName\": \"Vaccine Candidates per Country & Stage\", \"sliceNameOverride\": \"Heatmap of Countries & Clinical Stages\", \"uuid\": \"cd111331-d286-4258-9020-c7949a109ed2\", \"width\": 4}, \"parents\": [\"ROOT_ID\", \"TABS-wUKya7eQ0Z\", \"TAB-BCIJF4NvgQ\", \"ROW-zhOlQLQnB\"], \"type\": \"CHART\"}, \"CHART-eirDduqb1A\": {\"children\": [], \"id\": \"CHART-eirDduqb1A\", \"meta\": {\"chartId\": 131, \"height\": 59, \"sliceName\": \"Filtering Vaccines\", \"sliceNameOverride\": \"Filter Box of Vaccines\", \"uuid\": \"c29381ce-0e99-4cf3-bf0f-5f55d6b94176\", \"width\": 3}, \"parents\": [\"ROOT_ID\", \"TABS-wUKya7eQ0Z\", \"TAB-BCIJF4NvgQ\", \"ROW-xSeNAspgw\"], \"type\": \"CHART\"}, \"CHART-fYo7IyvKZQ\": {\"children\": [], \"id\": \"CHART-fYo7IyvKZQ\", \"meta\": {\"chartId\": 89, \"height\": 82, \"sliceName\": \"Vaccine Candidates per Country & Stage\", \"sliceNameOverride\": \"Sunburst of Country & Clinical Stages\", \"uuid\": \"f69c556f-15fe-4a82-a8bb-69d5b6954123\", \"width\": 5}, \"parents\": [\"ROOT_ID\", \"TABS-wUKya7eQ0Z\", \"TAB-BCIJF4NvgQ\", \"ROW-zhOlQLQnB\"], \"type\": \"CHART\"}, \"CHART-j4hUvP5dDD\": {\"children\": [], \"id\": \"CHART-j4hUvP5dDD\", \"meta\": {\"chartId\": 92, \"height\": 82, \"sliceName\": \"Vaccine Candidates per Approach & Stage\", \"sliceNameOverride\": \"Heatmap of Aproaches & Clinical Stages\", \"uuid\": \"0c953c84-0c9a-418d-be9f-2894d2a2cee0\", \"width\": 3}, \"parents\": [\"ROOT_ID\", \"TABS-wUKya7eQ0Z\", \"TAB-BCIJF4NvgQ\", \"ROW-zhOlQLQnB\"], \"type\": \"CHART\"}, \"DASHBOARD_VERSION_KEY\": \"v2\", \"GRID_ID\": {\"children\": [], \"id\": \"GRID_ID\", \"parents\": [\"ROOT_ID\"], \"type\": \"GRID\"}, \"HEADER_ID\": {\"id\": \"HEADER_ID\", \"meta\": {\"text\": \"COVID Vaccine Dashboard\"}, \"type\": \"HEADER\"}, \"MARKDOWN-VjQQ5SFj5v\": {\"children\": [], \"id\": \"MARKDOWN-VjQQ5SFj5v\", \"meta\": {\"code\": \"# COVID-19 Vaccine Dashboard\\n\\nEverywhere you look, you see negative news about COVID-19. This is to be expected; it's been a brutal year and this disease is no joke. This dashboard hopes to use visualization to inject some optimism about the coming return to normalcy we enjoyed before 2020! There's lots to be optimistic about:\\n\\n- the sheer volume of attempts to fund the R&D needed to produce and bring an effective vaccine to market\\n- the large number of countries involved in at least one vaccine candidate (and the diversity of economic status of these countries)\\n- the diversity of vaccine approaches taken\\n- the fact that 2 vaccines have already been approved (and a hundreds of thousands of patients have already been vaccinated)\\n\\n### The Dataset\\n\\nThis dashboard is powered by data maintained by the Millken Institute ([link to dataset](https://airtable.com/shrSAi6t5WFwqo3GM/tblEzPQS5fnc0FHYR/viwDBH7b6FjmIBX5x?blocks=bipZFzhJ7wHPv7x9z)). We researched each vaccine candidate and added our own best guesses for the country responsible for each vaccine effort.\\n\\n_Note that this dataset was last updated on 12/23/2020_.\\n\\n\", \"height\": 59, \"width\": 3}, \"parents\": [\"ROOT_ID\", \"TABS-wUKya7eQ0Z\", \"TAB-BCIJF4NvgQ\", \"ROW-xSeNAspgw\"], \"type\": \"MARKDOWN\"}, \"ROOT_ID\": {\"children\": [\"TABS-wUKya7eQ0Z\"], \"id\": \"ROOT_ID\", \"type\": \"ROOT\"}, \"ROW-xSeNAspgw\": {\"children\": [\"MARKDOWN-VjQQ5SFj5v\", \"CHART-aGfmWtliqA\", \"CHART-RjD_ygqtwH\", \"CHART-eirDduqb1A\"], \"id\": \"ROW-xSeNAspgw\", \"meta\": {\"0\": \"ROOT_ID\", \"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"TABS-wUKya7eQ0Z\", \"TAB-BCIJF4NvgQ\"], \"type\": \"ROW\"}, \"ROW-zhOlQLQnB\": {\"children\": [\"CHART-j4hUvP5dDD\", \"CHART-dCUpAcPsji\", \"CHART-fYo7IyvKZQ\"], \"id\": \"ROW-zhOlQLQnB\", \"meta\": {\"0\": \"ROOT_ID\", \"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"TABS-wUKya7eQ0Z\", \"TAB-BCIJF4NvgQ\"], \"type\": \"ROW\"}, \"ROW-zvw7luvEL\": {\"children\": [\"CHART-63bEuxjDMJ\", \"CHART-F-fkth0Dnv\"], \"id\": \"ROW-zvw7luvEL\", \"meta\": {\"0\": \"ROOT_ID\", \"background\": \"BACKGROUND_TRANSPARENT\"}, \"parents\": [\"ROOT_ID\", \"TABS-wUKya7eQ0Z\", \"TAB-BCIJF4NvgQ\"], \"type\": \"ROW\"}, \"TAB-BCIJF4NvgQ\": {\"children\": [\"ROW-xSeNAspgw\", \"ROW-zvw7luvEL\", \"ROW-zhOlQLQnB\"], \"id\": \"TAB-BCIJF4NvgQ\", \"meta\": {\"text\": \"Overview\"}, \"parents\": [\"ROOT_ID\", \"TABS-wUKya7eQ0Z\"], \"type\": \"TAB\"}, \"TABS-wUKya7eQ0Z\": {\"children\": [\"TAB-BCIJF4NvgQ\"], \"id\": \"TABS-wUKya7eQ0Z\", \"meta\": {}, \"parents\": [\"ROOT_ID\"], \"type\": \"TABS\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "covid_vaccines",
+                            "datasource_type": "table",
+                            "id": 131,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"69__table\", \"date_filter\": false, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"country_name\", \"key\": \"D00hRxPLE\", \"label\": \"Country\", \"multiple\": true, \"searchAllOptions\": false}, {\"asc\": true, \"clearable\": true, \"column\": \"product_category\", \"key\": \"jJ7x2cuIc\", \"label\": \"Vaccine Approach\", \"multiple\": true, \"searchAllOptions\": false}, {\"asc\": true, \"clearable\": true, \"column\": \"clinical_stage\", \"key\": \"EgGwwAUU6\", \"label\": \"Clinical Stage\", \"multiple\": true, \"searchAllOptions\": false}], \"queryFields\": {}, \"slice_id\": 3965, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"filter_box\", \"remote_id\": 131, \"datasource_name\": \"covid_vaccines\", \"schema\": null, \"database_name\": \"examples\"}",
+                            "slice_name": "Filtering Vaccines",
+                            "viz_type": "filter_box"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "covid_vaccines",
+                            "datasource_type": "table",
+                            "id": 88,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": \"clinical_stage\", \"all_columns_y\": \"country_name\", \"bottom_margin\": \"auto\", \"canvas_image_rendering\": \"pixelated\", \"datasource\": \"14__table\", \"left_margin\": \"auto\", \"linear_color_scheme\": \"schemeYlOrBr\", \"metric\": \"count\", \"normalize_across\": \"heatmap\", \"row_limit\": 10000, \"show_legend\": true, \"show_perc\": true, \"sort_x_axis\": \"alpha_asc\", \"sort_y_axis\": \"alpha_asc\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"heatmap\", \"xscale_interval\": null, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"yscale_interval\": null, \"remote_id\": 88, \"datasource_name\": \"covid_vaccines\", \"schema\": null, \"database_name\": \"examples\"}",
+                            "slice_name": "Vaccine Candidates per Country & Stage",
+                            "viz_type": "heatmap"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "covid_vaccines",
+                            "datasource_type": "table",
+                            "id": 91,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"presetColors\", \"datasource\": \"69__table\", \"groupby\": [\"country_name\"], \"label_colors\": {}, \"metrics\": [\"count\"], \"number_format\": \"SMART_NUMBER\", \"queryFields\": {\"groupby\": \"groupby\", \"metrics\": \"metrics\"}, \"row_limit\": 10000, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"treemap_ratio\": 1.618033988749895, \"url_params\": {}, \"viz_type\": \"treemap\", \"remote_id\": 91, \"datasource_name\": \"covid_vaccines\", \"schema\": null, \"database_name\": \"examples\"}",
+                            "slice_name": "Vaccine Candidates per Country",
+                            "viz_type": "treemap"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "covid_vaccines",
+                            "datasource_type": "table",
+                            "id": 92,
+                            "params": "{\"adhoc_filters\": [], \"all_columns_x\": \"clinical_stage\", \"all_columns_y\": \"product_category\", \"bottom_margin\": \"auto\", \"canvas_image_rendering\": \"pixelated\", \"datasource\": \"69__table\", \"left_margin\": \"auto\", \"linear_color_scheme\": \"schemeYlOrBr\", \"metric\": \"count\", \"normalize_across\": \"heatmap\", \"queryFields\": {\"metric\": \"metrics\"}, \"row_limit\": 10000, \"show_legend\": false, \"show_perc\": true, \"show_values\": true, \"slice_id\": 3962, \"sort_x_axis\": \"alpha_asc\", \"sort_y_axis\": \"alpha_asc\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"heatmap\", \"xscale_interval\": null, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"yscale_interval\": null, \"remote_id\": 92, \"datasource_name\": \"covid_vaccines\", \"schema\": null, \"database_name\": \"examples\"}",
+                            "slice_name": "Vaccine Candidates per Approach & Stage",
+                            "viz_type": "heatmap"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "covid_vaccines",
+                            "datasource_type": "table",
+                            "id": 90,
+                            "params": "{\"adhoc_filters\": [], \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"country_fieldtype\": \"name\", \"datasource\": \"14__table\", \"entity\": \"country_name\", \"linear_color_scheme\": \"schemeYlOrBr\", \"max_bubble_size\": \"25\", \"metric\": \"count\", \"row_limit\": 10000, \"secondary_metric\": {\"aggregate\": \"COUNT\", \"column\": {\"column_name\": \"country_name\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 583, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"TEXT\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"COUNT(Country_Name)\", \"optionName\": \"metric_i8otphezfu_5urmjjs7c1\", \"sqlExpression\": null}, \"show_bubbles\": true, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"world_map\", \"remote_id\": 90, \"datasource_name\": \"covid_vaccines\", \"schema\": null, \"database_name\": \"examples\"}",
+                            "slice_name": "Vaccine Candidates per Country",
+                            "viz_type": "world_map"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "covid_vaccines",
+                            "datasource_type": "table",
+                            "id": 87,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"69__table\", \"donut\": true, \"groupby\": [\"clinical_stage\"], \"innerRadius\": 44, \"label_line\": true, \"labels_outside\": true, \"metric\": \"count\", \"number_format\": \"SMART_NUMBER\", \"outerRadius\": 61, \"label_type\": \"key\", \"queryFields\": {\"groupby\": \"groupby\", \"metric\": \"metrics\"}, \"row_limit\": 10000, \"show_labels\": true, \"show_legend\": false, \"slice_id\": 3957, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"pie\", \"remote_id\": 87, \"datasource_name\": \"covid_vaccines\", \"schema\": null, \"database_name\": \"examples\"}",
+                            "slice_name": "Vaccine Candidates per Phase",
+                            "viz_type": "pie"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "covid_vaccines",
+                            "datasource_type": "table",
+                            "id": 89,
+                            "params": "{\"adhoc_filters\": [], \"color_scheme\": \"supersetColors\", \"datasource\": \"69__table\", \"groupby\": [\"product_category\", \"clinical_stage\"], \"linear_color_scheme\": \"schemeYlOrBr\", \"metric\": \"count\", \"queryFields\": {\"groupby\": \"groupby\", \"metric\": \"metrics\", \"secondary_metric\": \"metrics\"}, \"row_limit\": 10000, \"slice_id\": 3964, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"sunburst\", \"remote_id\": 89, \"datasource_name\": \"covid_vaccines\", \"schema\": null, \"database_name\": \"examples\"}",
+                            "slice_name": "Vaccine Candidates per Country & Stage",
+                            "viz_type": "sunburst"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "covid_vaccines",
+                            "datasource_type": "table",
+                            "id": 86,
+                            "params": "{\"adhoc_filters\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"SUPERSET_DEFAULT\", \"columns\": [], \"datasource\": \"14__table\", \"groupby\": [\"clinical_stage\"], \"label_colors\": {}, \"metrics\": [\"count\"], \"row_limit\": 10000, \"show_legend\": false, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 86, \"datasource_name\": \"covid_vaccines\", \"schema\": null, \"database_name\": \"examples\"}",
+                            "slice_name": "Vaccine Candidates per Phase",
+                            "viz_type": "dist_bar"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-03-29T09:12:58"
+                            },
+                            "column_name": "clinical_stage",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-03-29T09:07:01"
+                            },
+                            "description": null,
+                            "expression": "CASE \nWHEN stage_of_development = 'Pre-clinical' THEN '0. Pre-clinical'\nWHEN stage_of_development = 'Phase I' THEN '1. Phase I' \nWHEN stage_of_development = 'Phase I/II' or stage_of_development = 'Phase II' THEN '2. Phase II or Combined I/II'\nWHEN stage_of_development = 'Phase III' THEN '3. Phase III'\nWHEN stage_of_development = 'Authorized' THEN '4. Authorized'\nEND",
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 555,
+                            "is_active": null,
+                            "is_dttm": null,
+                            "python_date_format": null,
+                            "table_id": 23,
+                            "type": "STRING",
+                            "uuid": "dbd00481-823b-4ba5-afdc-467dfe04b209",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-03-29T09:12:58"
+                            },
+                            "column_name": "fda_approved_indications",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-03-29T09:07:01"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 556,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 23,
+                            "type": "DOUBLE PRECISION",
+                            "uuid": "80fcc2e9-49ab-423e-96a7-2bdb515efe7e",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-03-29T09:12:58"
+                            },
+                            "column_name": "anticipated_next_steps",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-03-29T09:07:01"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 557,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 23,
+                            "type": "TEXT",
+                            "uuid": "adb1aa0a-080a-41b4-a8f2-dc927d54fb47",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-03-29T09:12:58"
+                            },
+                            "column_name": "ioc_country_code",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-03-29T09:07:01"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 558,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 23,
+                            "type": "TEXT",
+                            "uuid": "99a63e3a-259c-46ee-a0e1-184c49702889",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-03-29T09:12:58"
+                            },
+                            "column_name": "clinical_trials_for_other_diseases_or_related_use",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-03-29T09:07:01"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 559,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 23,
+                            "type": "TEXT",
+                            "uuid": "e87b8b37-1aea-4e29-b620-bda894f22fc8",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-03-29T09:12:58"
+                            },
+                            "column_name": "country_name",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-03-29T09:07:01"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 560,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 23,
+                            "type": "TEXT",
+                            "uuid": "a28cf9ba-17a0-416f-bdcb-41375efd4685",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-03-29T09:12:58"
+                            },
+                            "column_name": "product_category",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-03-29T09:07:01"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 561,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 23,
+                            "type": "TEXT",
+                            "uuid": "721f275f-200b-4fa8-b431-0fb58d3365b7",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-03-29T09:12:58"
+                            },
+                            "column_name": "clinical_trials",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-03-29T09:07:01"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 562,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 23,
+                            "type": "TEXT",
+                            "uuid": "7307af65-93e6-4b15-96ec-7747ad0ceeba",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-03-29T09:12:58"
+                            },
+                            "column_name": "date_last_updated",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-03-29T09:07:01"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 563,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 23,
+                            "type": "TEXT",
+                            "uuid": "9d095953-86af-4e81-b664-b722286635e9",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-03-29T09:12:58"
+                            },
+                            "column_name": "product_description",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-03-29T09:07:01"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 564,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 23,
+                            "type": "TEXT",
+                            "uuid": "cb417596-47bd-4aea-8f76-0b29a1762976",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-03-29T09:12:58"
+                            },
+                            "column_name": "developer_or_researcher",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-03-29T09:07:01"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 565,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 23,
+                            "type": "TEXT",
+                            "uuid": "91506d04-64d9-49e8-9150-7c30f03bd1aa",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-03-29T09:12:58"
+                            },
+                            "column_name": "stage_of_development",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-03-29T09:07:01"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 566,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 23,
+                            "type": "TEXT",
+                            "uuid": "d77f3d80-b2ca-4961-8ef1-4677ec86cf11",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-03-29T09:12:58"
+                            },
+                            "column_name": "funder",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-03-29T09:07:01"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 567,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 23,
+                            "type": "TEXT",
+                            "uuid": "5ea074c0-d17e-4195-ae0f-416d378ba598",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-03-29T09:12:58"
+                            },
+                            "column_name": "published_results",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-03-29T09:07:01"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 568,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 23,
+                            "type": "TEXT",
+                            "uuid": "365e04e1-a329-41c7-a654-50588cbc0ae7",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-03-29T09:12:58"
+                            },
+                            "column_name": "sources",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-03-29T09:07:01"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 569,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 23,
+                            "type": "TEXT",
+                            "uuid": "3bfa5612-c385-4e58-955c-20134608da17",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-03-29T09:12:58"
+                            },
+                            "column_name": "treatment_vs_vaccine",
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-03-29T09:07:01"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 570,
+                            "is_active": null,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 23,
+                            "type": "TEXT",
+                            "uuid": "7159bda2-8679-4e3f-8e0e-0a57a26789ae",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": null,
+                            "changed_on": {
+                                "__datetime__": "2021-03-29T09:07:01"
+                            },
+                            "created_by_fk": null,
+                            "created_on": {
+                                "__datetime__": "2021-03-29T09:07:01"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "extra": null,
+                            "id": 31,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 23,
+                            "uuid": "6073f72c-42b2-45ea-8bc6-863d16f031be",
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 23, \"database_name\": \"examples\"}",
+                "schema": null,
+                "sql": "",
+                "table_name": "covid_vaccines",
+                "template_params": null
+            }
+        }
+    ]
+}
